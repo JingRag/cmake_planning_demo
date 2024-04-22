@@ -6,9 +6,28 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
 					"projectIndex" : 0,
 					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
 				}
 			],
 			"name" : "Debug",
@@ -17,9 +36,10 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
-					"name" : "Project"
+					"name" : "planning"
 				}
 			],
 			"targets" : []

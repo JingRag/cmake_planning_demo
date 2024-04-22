@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/CMakeCInformation.cmake"
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake"
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake"
@@ -17,11 +16,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/Compiler/GNU-C.cmake"
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake"
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/Compiler/GNU.cmake"
-  "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake"
-  "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake"
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake"
@@ -30,10 +26,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/Platform/Windows.cmake"
   "C:/Users/jzp99/AppData/Local/Programs/Microsoft VS Code/cmake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake"
   "C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/CMakeLists.txt"
-  "CMakeFiles/3.29.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.29.2/CMakeSystem.cmake"
+  "C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,6 +41,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

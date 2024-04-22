@@ -1,2 +1,4 @@
 C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/build/CMakeFiles/edit_cache.dir
 C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/build/CMakeFiles/rebuild_cache.dir
+C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/build/src/CMakeFiles/edit_cache.dir
+C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/build/src/CMakeFiles/rebuild_cache.dir
