@@ -37,3 +37,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "C:/Program Files/mingw64/bin/objdump.exe")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/build/src/pnc_map/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/build/src/process/cmake_install.cmake")
+endif()
+

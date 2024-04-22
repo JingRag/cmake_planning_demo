@@ -115,6 +115,44 @@ depend:
 	cd /d C:\Users\jzp99\Desktop\Cmake\cmake_planning_demo\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/CMakeFiles/planning_main.dir/rule:
+	cd /d C:\Users\jzp99\Desktop\Cmake\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/planning_main.dir/rule
+.PHONY : src/CMakeFiles/planning_main.dir/rule
+
+# Convenience name for target.
+planning_main: src/CMakeFiles/planning_main.dir/rule
+.PHONY : planning_main
+
+# fast build rule for target.
+planning_main/fast:
+	cd /d C:\Users\jzp99\Desktop\Cmake\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/build
+.PHONY : planning_main/fast
+
+planning_main.obj: planning_main.cpp.obj
+.PHONY : planning_main.obj
+
+# target to build an object file
+planning_main.cpp.obj:
+	cd /d C:\Users\jzp99\Desktop\Cmake\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/planning_main.cpp.obj
+.PHONY : planning_main.cpp.obj
+
+planning_main.i: planning_main.cpp.i
+.PHONY : planning_main.i
+
+# target to preprocess a source file
+planning_main.cpp.i:
+	cd /d C:\Users\jzp99\Desktop\Cmake\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/planning_main.cpp.i
+.PHONY : planning_main.cpp.i
+
+planning_main.s: planning_main.cpp.s
+.PHONY : planning_main.s
+
+# target to generate assembly for a file
+planning_main.cpp.s:
+	cd /d C:\Users\jzp99\Desktop\Cmake\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/planning_main.cpp.s
+.PHONY : planning_main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -123,6 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... planning_main
+	@echo ... planning_main.obj
+	@echo ... planning_main.i
+	@echo ... planning_main.s
 .PHONY : help
 
 

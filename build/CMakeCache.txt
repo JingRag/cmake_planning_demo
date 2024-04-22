@@ -274,6 +274,33 @@ planning_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 planning_SOURCE_DIR:STATIC=C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo
 
+//Value Computed by CMake
+planning_main_BINARY_DIR:STATIC=C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/build/src
+
+//Value Computed by CMake
+planning_main_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+planning_main_SOURCE_DIR:STATIC=C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/src
+
+//Value Computed by CMake
+pnc_map_BINARY_DIR:STATIC=C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/build/src/pnc_map
+
+//Value Computed by CMake
+pnc_map_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+pnc_map_SOURCE_DIR:STATIC=C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/src/pnc_map
+
+//Value Computed by CMake
+process_BINARY_DIR:STATIC=C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/build/src/process
+
+//Value Computed by CMake
+process_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+process_SOURCE_DIR:STATIC=C:/Users/jzp99/Desktop/Cmake/cmake_planning_demo/src/process
+
 
 ########################
 # INTERNAL cache entries
@@ -381,7 +408,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

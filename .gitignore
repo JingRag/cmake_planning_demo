@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# bulid
+/build
+/bin
